@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Registration Form</title>
+</head>
+<body>
+  <h1>Student Registration Form</h1>
+  <form>
+    <label for="htno">Tenth Hall Ticket Number :</label>
+    <input type="text" id="htno" name="hallticket"><br>
+    <h4>Student Name:</h4>
+    <label for="fname">First Name :</label>
+    <input type="text" id="fname" name="firstname">
+    <label for="lname">Last Name :</label>
+    <input type="text" id="lname" name="lastname"><br><br>
+    <label for="faname">Father Name :</label>
+    <input type="text" id="faname" name="fathername"><br><br>
+    <label>Date of Birth (DD-MM-YYYY) :</label>
+    <input type="text" name="day" placeholder="DD" size="2">
+    <input type="text" name="month" placeholder="MM" size="2">
+    <input type="text" name="year" placeholder="YYYY" size="4"><br><br>
+    <label for="email">E-Mail :</label>
+    <input type="email" id="email" name="email">
+    <h4>Gender :</h4>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <h4>CGPA :</h4>
+    <input type="checkbox" id="a9" name="cgpa" value="Above 9">
+    <label for="a9">Above 9</label>
+    <input type="checkbox" id="a8" name="cgpa" value="Above 8">
+    <label for="a8">Above 8</label>
+    <input type="checkbox" id="a7" name="cgpa" value="Above 7">
+    <label for="a7">Above 7</label><br><br>
+    <label for="course">Select Course:</label>
+    <select id="course" name="course">
+      <option value="CSE">CSE</option>
+      <option value="ECE">ECE</option>
+      <option value="MECH">MECH</option>
+    </select>
+    <h4>Address :</h4>
+    <textarea id="address" rows="4" cols="40"></textarea><br><br>
+    <button type="submit">Register</button>
+    <button type="reset">Clear</button>
+  </form>
+</body>
+</html>
